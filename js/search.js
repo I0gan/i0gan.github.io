@@ -261,7 +261,7 @@ window.addEventListener('DOMContentLoaded', () => {
     StartSearch()
   })
   document.querySelector('#search-input').addEventListener('blur', () => {
-    document.querySelector('#search-input').placeholder = '数据检索'
+    document.querySelector('#search-input').placeholder = '搜索'
     document.querySelector('.navContent').classList.remove('search')
     document.querySelector('.navContent').classList.add('moved')
     document.addEventListener('mouseup', EscapeSearch)
